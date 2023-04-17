@@ -2,6 +2,7 @@ const urljoin = require("url-join")
 const siteConfig = require("./siteConfig")
 
 module.exports = {
+  
   siteMetadata: {
     title: siteConfig.name,
     author: siteConfig.author,
@@ -92,7 +93,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/deeeed_logo_black_bg.png`,
       },
     },
     `gatsby-plugin-netlify`,
