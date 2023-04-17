@@ -30,10 +30,10 @@ const Layout = props => {
                 <Link to={`/`}>Home</Link>
               </li>
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <Link to={`/about`}>Contact</Link>
               </li>
               <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+                <Link to={`/elements`}>Works</Link>
               </li>
             </ul>
           </nav>
@@ -81,11 +81,11 @@ const Layout = props => {
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
         Built with{" "}
         <a
-          href="https://gatsbyjs.org"
+          href="https://deeeed.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gatsby
+          Deeeed Design Studio
         </a>
       </footer>
     </div>
