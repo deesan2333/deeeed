@@ -91,7 +91,7 @@ module.exports = {
         short_name: siteConfig.shortName,
         start_url: siteConfig.prefix,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#deeeed`,
         display: `minimal-ui`,
         icon: `content/assets/deeeed_logo_black_bg.png`,
       },

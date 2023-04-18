@@ -1,1 +1,1 @@
-[Deeeed](deeeed.com) is an independent Branding Design studio based in Shanghai.
+[Deeeed](deeeed.com) is an independent creative design studio based in Shanghai.

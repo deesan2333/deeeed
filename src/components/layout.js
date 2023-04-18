@@ -45,14 +45,14 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
+                href="https://www.pinterest.com/deeeed_design/"
+                title="Pinterest"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Pinterest
               </a>
-              <a
+              {/* <a
                 href="https://twitter.com"
                 title="Twitter"
                 target="_blank"
@@ -67,7 +67,7 @@ const Layout = props => {
                 rel="noopener noreferrer"
               >
                 RSS
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -78,15 +78,7 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://deeeed.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Deeeed Design Studio
-        </a>
+      &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>
       </footer>
     </div>
   )
