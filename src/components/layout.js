@@ -78,7 +78,8 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-      &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>
+      &copy; {new Date().getFullYear()} Deeeed
+      — Made with ❤️ by <a href="mailto: figshape@gmail.com" target="_blank" rel="noopener noreferrer">figshape</a>
       </footer>
     </div>
   )
